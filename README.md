@@ -3,6 +3,16 @@
 #### 介绍
 redis场景化使用
 
+#### 系统架构
+src
+
+    main
+    
+        pos -----定位代码
+        rank ----等级排行代码
+    test
+        pos -----定位测试
+        rank ----等级排行测试
 #### 软件架构
 springboot、redisGEO
 
