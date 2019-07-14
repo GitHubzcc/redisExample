@@ -14,3 +14,6 @@ springboot、redisGEO
 #### 使用说明
 
 在test目录下执行即可
+
+#### 命令
+更新某个成员的值，使用geoadd添加即可覆盖原member的值，方法返回0
