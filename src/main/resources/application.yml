@@ -26,4 +26,19 @@ spring:
             max-idle: 8
             # 最小空闲连接数 默认0
             min-idle: 0
+  #mq config
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    listener:
+      simple:
+        concurrency: 10
+        max-concurrency: 20
+        prefetch: 5
+
+
+
+
 
